@@ -1,0 +1,10 @@
+# Ignore environment sensitive files
+.env
+.env.*
+!.env.example
+
+# Ignore dependency and build folders
+node_modules/
+dist/
+.wwebjs_cache/
+whatsapp-session/
